@@ -27,7 +27,8 @@ public class AddContentActions extends BaseClass {
 		ace.getProjectDropdown().click();
 		ace.getSearchInputBox().clear();
 		ace.getSearchInputBox().sendKeys(prjName);
-		ace.selectFilteredProject(prjName).click();;
+		ace.selectFilteredProject(prjName).click();
+		
 		
 		
 		Thread.sleep(5000);
