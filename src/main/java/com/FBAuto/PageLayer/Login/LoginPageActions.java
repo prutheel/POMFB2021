@@ -10,24 +10,7 @@ public class LoginPageActions extends BaseClass {
 	{
 		lpe = new LoginPageElements();
 	}
-	
-//	public void enterUsername(String username)
-//	{
-//		lpe.getUserNameInput().clear();
-//		lpe.getUserNameInput().sendKeys(username);
-//	}
-//	
-//	public void enterPassowrd(String password)
-//	{
-//		lpe.getPasswordInput().clear();
-//		lpe.getPasswordInput().sendKeys(password);
-//	}
-//	
-//	public void clickLoginButton() {
-//		lpe.getLoginButton().click();
-//	}
-//	
-	
+
 	public Object performLogin(String username,String password)
 	{
 		lpe.getUserNameInput().clear();

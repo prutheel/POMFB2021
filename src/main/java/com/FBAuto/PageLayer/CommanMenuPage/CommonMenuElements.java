@@ -15,6 +15,9 @@ public class CommonMenuElements extends BaseClass {
 	@FindBy(id="dvUserName")
 	private WebElement UserNameDiv;
 	
+	@FindBy(id="mnuAddContent")
+	private WebElement AddContentButton;
+	
 	public CommonMenuElements() 
 	{
 		super();
@@ -28,6 +31,12 @@ public class CommonMenuElements extends BaseClass {
 		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		return _wait.until(ExpectedConditions.elementToBeClickable(UserNameDiv));
 		//return driver.findElement(By.id("dvUserName"))
+		
+	}
+	
+	public WebElement getAddContentButton()
+	{
+		return _wait.until(ExpectedConditions.elementToBeClickable(AddContentButton));
 		
 	}
 	

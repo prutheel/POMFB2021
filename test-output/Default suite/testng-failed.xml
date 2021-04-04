@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.FBAuto.test.LoginPage.LoginPageTest">
+      <class name="com.FBAuto.test.AddContentPage.AddContentTest">
         <methods>
-          <include name="setup"/>
+          <include name="getLogin"/>
           <include name="tearDown"/>
-          <include name="CheckValidLogin"/>
+          <include name="createFile"/>
         </methods>
-      </class> <!-- com.FBAuto.test.LoginPage.LoginPageTest -->
+      </class> <!-- com.FBAuto.test.AddContentPage.AddContentTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
